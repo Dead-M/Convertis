@@ -55,5 +55,8 @@ std::cout << "You're Slection : ";
 }
 
 void Meshur_Menu(){
-    
+NEXT2;
+std::cout << "~~~\t 1. Metric to Imperial \t~~~\n";
+std::cout << "~~~\t 2. Imperial to Metric \t~~~\n";
+std::cout << "You're Slection : ";
 }
