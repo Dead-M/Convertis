@@ -23,7 +23,7 @@ Input input;
     std::cout << "~~~ \t1. Miles to Destanation to Time \t ~~~\n";
     std::cout << "~~~ \t2. Payment Cailculations \t ~~~\n";
     std::cout << "~~~ \t3. Impearial to Metric \t ~~~\n";
-    std::cout << "~~~ \t4. TBC \t ~~~\n";
+    std::cout << "~~~ \t4. Temp Conversion \t ~~~\n";
     NEXT;
     std::cin >> x;
     setplayer_MenuInput(x);

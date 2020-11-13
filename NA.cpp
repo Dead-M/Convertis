@@ -2,5 +2,5 @@
 #include"Menu.h"
 
 void NA_Function(){
-    std::cout << "Comming soon \n";
+    std::cout << "~~~\t Tempture Conversion \t~~~ \n";
 }
