@@ -30,21 +30,9 @@ double Sum = 0;
     }   
 };
 
-double Metric_Convertis(double x,double y){//sounds like casting a spell
-return 
-} 
 
 void Metric_Function(){
-Meshure meshure;
-int x;
-int y;
-int Sum;
-
-std::cout << "~~~\t Enter You're Metric # : \t~~~\n";
-std::cin >> x;
-meshure.setMetric(x);
-NEXT2;
-std::cout << x << " in Metric is " << y << " in Imperial Meshurements \n";
+  
 }
 
 void Meshurments_Convertis(){

@@ -3,7 +3,8 @@
 #include"Meshurments.h"
 #include"Payment.h"
 #include"Miles.h"
-#include"NA.h"
+#include"Temp.h"
+#include"Cail.h"
 #define NEXT std::cout << std::endl;
 #define NEXT2 NEXT; NEXT;
  struct Input{
@@ -24,6 +25,7 @@ Input input;
     std::cout << "~~~ \t2. Payment Cailculations \t ~~~\n";
     std::cout << "~~~ \t3. Impearial to Metric \t ~~~\n";
     std::cout << "~~~ \t4. Temp Conversion \t ~~~\n";
+    std::cout << "~~~ \t5. CailCuelator \t ~~~\n";
     NEXT;
     std::cin >> x;
     setplayer_MenuInput(x);
@@ -41,7 +43,10 @@ Input input;
             Meshurments_Convertis();
             break;
         case 4:
-            NA_Function();
+            Temp_Function();
+            break;
+        case 5:
+            Cail_Function();
             break;
     }//END SWITCH
     }//END WHILE LOOP
@@ -58,5 +63,6 @@ void Meshur_Menu(){
 NEXT2;
 std::cout << "~~~\t 1. Metric to Imperial \t~~~\n";
 std::cout << "~~~\t 2. Imperial to Metric \t~~~\n";
+
 std::cout << "You're Slection : ";
 }
