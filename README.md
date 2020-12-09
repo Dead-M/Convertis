@@ -1,22 +1,24 @@
 # Convertis
 
-Convertis is a Programing Made for Converting Diffrent types of thing's and to Improve Ones programming ability.
+Convertis is a Program Made for Converting Diffrent types of thing's and to Improve Ones programming ability.
+Also a Program where we just throw what ever we can at it and end game here is to make it a master of all.
 
 So far this Program Has working:
    - Mile's to Destanation
    - Meshurments
    
 whats Not Working yet:
-   - Cal
-   - Every thing else
-   - Payments
-   - Tempture Conversion
+* Every thing else
+
+     * Cal
+      * Payments
+    *  Tempture Conversion
    
 ==================================================
 Things to know about the code:-_
    _________________________________________________________
  /|     -_-                                             _-  |\
-/ |_-_- _                                         -_- _-   -| \   Rules--=-==-=-=-=-=-=-=-=-=-=-
+/ |_-_- _                                         -_- _-   -| \   Rules--=-==-=-=-=-=-=-=-=-=-=-~+~+~+~+~+~+~+~++~+~+~+~+~+~++~+
   |                            _-  _--                      |     1.Learn and have Fun
   |                            ,                            |      2.Ask all the question's you want. "We are all here to learn"
   |      .-'````````'.        '(`        .-'```````'-.      |        3.NO Political Politics 
