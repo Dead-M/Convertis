@@ -12,4 +12,5 @@ whats Not Working yet:
    x
    - Payments
    - Tempture Conversion
+   - Cailculator 
    
