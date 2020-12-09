@@ -19,7 +19,10 @@ Things to know about the code:-_
 
 Rules--=-==-=-=-=-=-=-=-=-=-=-~+~+~+~+~+~+~
 
- 1.Learn and have Fun
+0.When You do a pull request Please leve a comment on where you made changes
+   to better keep track of Progress & to help other's learn.
+
+1.Learn and have Fun
 
 2.Ask all the question's you want. "We are all here to learn"
 
