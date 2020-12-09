@@ -26,10 +26,10 @@ Rules--=-==-=-=-=-=-=-=-=-=-=-~+~+~+~+~+~+~
 1.Learn and have Fun
 
 2.Ask all the question's you want. "We are all here to learn"
-   2.2 Get on echothers A@$ to program keep ech other working.
+    @X@ 2.2 Get on echothers A@$ to program keep ech other working.
 
 3.NO Political Politics 
- -3.3 Offensive launguge is a form of expreshion just dont Express to much
+ @X@ 3.3 Offensive launguge is a form of expreshion just dont Express to much
    
 4.No Arguing to much
  
