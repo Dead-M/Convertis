@@ -7,6 +7,9 @@
 #define NEXT2 NEXT; NEXT;
 
 void Cail_Function(){
+
     NEXT;
     std::cout << "~~~ \t CalCuelator \t ~~~\n";
+    NEXT2;
+    
 }  

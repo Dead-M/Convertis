@@ -18,14 +18,15 @@ void setplayer_MenuInput(int x){
 }
 
 void Slect_MENUS(){//MENUS FUNCTION
+
 Input input;
-    int x;
+    int x = 99;
     while(x != 0){//WHILE LOOP
     std::cout << "~~~ \t1. Miles to Destanation to Time \t ~~~\n";
     std::cout << "~~~ \t2. Payment Cailculations \t ~~~\n";
-    std::cout << "~~~ \t3. Impearial to Metric \t ~~~\n";
+    std::cout << "~~~ \t3. Meshurements \t ~~~\n";
     std::cout << "~~~ \t4. Temp Conversion \t ~~~\n";
-    std::cout << "~~~ \t5. CailCuelator \t ~~~\n";
+    std::cout << "~~~ \t5. Cail-Cuelator \t ~~~\n";
     NEXT;
     std::cin >> x;
     setplayer_MenuInput(x);
@@ -63,6 +64,6 @@ void Meshur_Menu(){
 NEXT2;
 std::cout << "~~~\t 1. Metric to Imperial \t~~~\n";
 std::cout << "~~~\t 2. Imperial to Metric \t~~~\n";
-
 std::cout << "You're Slection : ";
+
 }

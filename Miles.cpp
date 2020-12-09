@@ -26,7 +26,7 @@ class Travel{
 
 
 void Time_To_Destanation_FromAB(){
- int x,y,z;
+int x, y, z = 99;
  
  Travel travel;
 std::cout << "Enter MPH : ";

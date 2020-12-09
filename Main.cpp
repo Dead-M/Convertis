@@ -5,10 +5,13 @@
 #include"Meshurments.h"
 #include"Intro.h"
 #include"Temp.h"
+#include<stdlib.h>
 
 
 #define NEXT std::cout << std::endl;
 
 int main(){
-    INTRO();
+
+INTRO();
+
 }
