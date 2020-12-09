@@ -10,8 +10,8 @@ So far this Program Has working:
 whats Not Working yet:
 * Every thing else
 
-     * Cal
-      * Payments
+  * Cal
+   * Payments
     *  Tempture Conversion
    
 =============================================
