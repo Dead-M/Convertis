@@ -3,7 +3,7 @@
 #include<iostream>
 #include<stdlib.h>
 #define NEXT std::cout << std::endl;
-#define NEXT5 NEXT; NEXT; NEXT; NEXT; NEXT;
+#define NEXT5 NEXT; NEXT; NEXT; NEXT;
 
 void Metric_Function() {
 
@@ -42,6 +42,7 @@ public:
     double cmInchs = 0.3937;
     double Feet = Inch * 12;    
     double mm = 0.3048 ;
+    double YardMeter = 0.9144;
     double Yards = 1.0936;
     double Miles = 0.6214;
     double CinM = 2.54;
@@ -80,7 +81,7 @@ void Imperial_Slection_Function() {
     case 3:
         std::cout << "Enter Yarrrds to Convert to Meters : ";
         std::cin >> Operand;
-        OperandSum = Operand * meshure.mm;
+        OperandSum = Operand * meshure.YardMeter;
         std::cout << Operand << " Yards to Meter's is : " << OperandSum;
         NEXT5;
         break;

@@ -2,7 +2,7 @@
 #include<cmath>
 #include<iostream>
 #define NEXT std::cout << std::endl;
-#define NEXT2 NEXT; NEXT;
+#define NEXT5 NEXT; NEXT; NEXT; NEXT;
 
 class Travel{
     int MPH = 0;
@@ -32,15 +32,15 @@ int x, y, z = 99;
 std::cout << "Enter MPH : ";
 std::cin >> x;
 travel.setMPH(x);
-NEXT2;
+NEXT5;
 std::cout << "Miles To Destanation : ";
 std::cin >> y;
 travel.setDestanation(y);
-NEXT2;
+NEXT5;
 travel.setSum(x,y);
 std::cout << "From You're current Location to you're Destanation \n while going " << x << " Miles PerHour is : " ;
 std::cout << travel.getSum() << " Hours" << std::endl;
-NEXT2;
+NEXT5;
 
 }
 

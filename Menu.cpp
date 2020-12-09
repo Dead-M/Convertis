@@ -6,7 +6,7 @@
 #include"Temp.h"
 #include"Cail.h"
 #define NEXT std::cout << std::endl;
-#define NEXT2 NEXT; NEXT;
+#define NEXT5 NEXT; NEXT; NEXT; NEXT;
  struct Input{
 
      int player_MenuInput = 9;
@@ -54,14 +54,14 @@ Input input;
 }//END Slect_MENUS FUNCTION
 
 void Miles_Menu(){
-NEXT2;
+NEXT5;
 std::cout << "~~~\t 1. Miles to time from A to B \t~~~\n";
 //std::cout << "~~~\t 2. Time To Destanation\t~~~\n";
 std::cout << "You're Slection : ";
 }
 
 void Meshur_Menu(){
-NEXT2;
+NEXT5;
 std::cout << "~~~\t 1. Metric to Imperial \t~~~\n";
 std::cout << "~~~\t 2. Imperial to Metric \t~~~\n";
 std::cout << "You're Slection : ";

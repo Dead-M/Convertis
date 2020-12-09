@@ -7,7 +7,7 @@
 #include"Temp.h"
 #include<stdlib.h>
 
-
+#define NEXT5 NEXT; NEXT; NEXT; NEXT;
 #define NEXT std::cout << std::endl;
 
 int main(){

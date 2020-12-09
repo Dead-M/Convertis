@@ -1,10 +1,10 @@
 #include<iostream>
 #include"Menu.h"
 #define NEXT std::cout << std::endl;
-#define NEXT2 NEXT; NEXT;
+#define NEXT5 NEXT; NEXT; NEXT; NEXT;
 
 void Temp_Function(){
-    NEXT2;
+    NEXT5;
     std::cout << "~~~\t Tempture Conversion \t~~~ \n";
     NEXT;
 }
