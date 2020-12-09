@@ -41,6 +41,6 @@ Side_Info:
 When you call a function while running the Program, it will print out "Function has been called" this is purely to show that not only the Prog (Program)
 is working and as if its a Debuger in a way I.e-- "Payment have been called\n"
 
-
+STRONGLY encourage you to learn about g++ on windows and GDB & g++ ON LINUX.
 
 
