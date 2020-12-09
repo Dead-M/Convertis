@@ -2,6 +2,7 @@
 
 Convertis is a Program Made for Converting Diffrent types of thing's and to Improve Ones programming ability.
 Also a Program where we just throw what ever we can at it and end game here is to make it a master of all.
+And a Gui as well.
 
 So far this Program Has working:
    - Mile's to Destanation
