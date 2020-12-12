@@ -13,12 +13,12 @@ So far this Program Has working:
    - Tempture Conversion
    
 whats Not Working yet:
-   X Cailculator
-   X Payment
-   X TBA
-   X TBA
-   X TBA
-   X TBA
+   * Cailculator
+   * Payment
+   * TBA
+   * TBA
+   * TBA
+   * TBA
    
    Things to know about this Project and the rules:
    
