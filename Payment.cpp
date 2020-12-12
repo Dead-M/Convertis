@@ -1,5 +1,6 @@
 #include"Menu.h"
-#include<iostream>X
+#include<iostream>
+
 #define NEXT5 NEXT; NEXT; NEXT; NEXT;
 
 void Payments_Convertis(){

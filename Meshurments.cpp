@@ -37,6 +37,7 @@ public:
     double getSum() {
         return Sum;
     }
+
     int Inch = 1;
     double mmInchs = 0.03937;
     double cmInchs = 0.3937;

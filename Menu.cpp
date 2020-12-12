@@ -5,8 +5,10 @@
 #include"Miles.h"
 #include"Temp.h"
 #include"Cail.h"
+
 #define NEXT std::cout << std::endl;
 #define NEXT5 NEXT; NEXT; NEXT; NEXT;
+
  struct Input{
 
      int player_MenuInput = 9;
@@ -16,7 +18,6 @@ void setplayer_MenuInput(int x){
     Input input;
     x = input.player_MenuInput;
 }
-
 void Slect_MENUS(){//MENUS FUNCTION
 
 Input input;
@@ -35,7 +36,7 @@ Input input;
 
     switch(x){//SWITCH
         case 1:
-            Miles_Convertis();
+            Miles_Convertis();             
             break;
         case 2:
             Payments_Convertis();
@@ -44,7 +45,7 @@ Input input;
             Meshurments_Convertis();
             break;
         case 4:
-            Temp_Function();
+            Temp_Menu();
             break;
         case 5:
             Cail_Function();
@@ -66,4 +67,14 @@ std::cout << "~~~\t 1. Metric to Imperial \t~~~\n";
 std::cout << "~~~\t 2. Imperial to Metric \t~~~\n";
 std::cout << "You're Slection : ";
 
+}
+
+void Temp_Menu() {
+    NEXT5;
+    std::cout << "~~~\t~Tempture Conversion~\t~~~ \n";
+    NEXT;
+    std::cout << "~~~\t 1. Celsius --> Fahrenheit \t~~~ \n";
+    std::cout << "~~~\t 2. Fahrenheit --> Celsius \t~~~ \n";
+    NEXT;
+    Temp_Function();
 }

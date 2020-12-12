@@ -2,7 +2,7 @@
 #include"Intro.h"
 #include"Menu.h"
 #define NEXT std::cout << std::endl;
-
+#define NEXT5 NEXT; NEXT; NEXT; NEXT;
 
 void INTRO(){
 NEXT;
