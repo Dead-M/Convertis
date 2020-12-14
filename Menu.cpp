@@ -5,6 +5,8 @@
 #include"Miles.h"
 #include"Temp.h"
 #include"Cail.h"
+#include"Weight.h"
+#include"Currency.h"
 
 #define NEXT std::cout << std::endl;
 #define NEXT5 NEXT; NEXT; NEXT; NEXT;
@@ -28,6 +30,8 @@ Input input;
     std::cout << "~~~ \t3. Meshurements \t ~~~\n";
     std::cout << "~~~ \t4. Temp Conversion \t ~~~\n";
     std::cout << "~~~ \t5. Cail-Cuelator \t ~~~\n";
+    std::cout << "~~~ \t6. Convert Weight's \t ~~~\n";
+    std::cout << "~~~ \t7. Convert Currency \t ~~~\n";
     std::cout << "~~~ \t0. Exit \t ~~~\n";
     NEXT;
     std::cin >> x;
@@ -50,6 +54,12 @@ Input input;
             break;
         case 5:
             Cail_Function();
+            break;
+        case 6:
+            Weight_Function();
+            break;
+        case 7:
+            Currency_Function();
             break;
     }//END SWITCH
     }//END WHILE LOOP
