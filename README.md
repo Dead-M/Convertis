@@ -15,8 +15,8 @@ So far this Program Has working:
 whats Not Working yet:
    * Cailculator
    * Payment
-   * TBA
-   * TBA
+   * Weight
+   * Currency
    * TBA
    * TBA
    
@@ -24,6 +24,7 @@ whats Not Working yet:
    
    (TTK):
    NEXT and NEXT5 are for spacing
+   
    
    Rules:
    1. Have fun 
