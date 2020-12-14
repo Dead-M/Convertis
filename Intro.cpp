@@ -8,7 +8,8 @@ void INTRO(){
 NEXT;
 NEXT;
 NEXT;
-std::cout << "Welcome to Convertis\n";
-std::cout << "Please Make a Slection \n";
+std::cout << "~~~~~\t \"Welcome to Convertis\" \t~~~~~\n";
+
+NEXT;
 Slect_MENUS();
 }

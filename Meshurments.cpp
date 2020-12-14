@@ -18,26 +18,6 @@ private:
 
 public:
 
-
-    void setMetric(int x) {
-        Metric = x;
-    }
-    double getMetric() {
-        return Metric;
-    }
-    double getImperial() {
-        return Imperial;
-    }
-    void setImperial(int y) {
-        Imperial = y;
-    }
-    void setSum(int z) {
-        Sum = z;
-    }
-    double getSum() {
-        return Sum;
-    }
-
     int Inch = 1;
     double mmInchs = 0.03937;
     double cmInchs = 0.3937;
@@ -99,12 +79,13 @@ void Imperial_Slection_Function() {
 
 
 void Meshur_Slection_Menu() {
-   // Meshure meshure;
+
     NEXT5;
     std::cout << "~~~\t 1. Millimeter to Inches\" \t~~~\n";
     std::cout << "~~~\t 2. Centimeter to Inches   \t~~~\n";
     std::cout << "~~~\t 3. Meters to Yard's \t~~~\n";
     std::cout << "~~~\t 4. Kilometers to Miles \t~~~\n";
+    std::cout << "~~~\t 0. Main Menu \t ~~~\n";
     NEXT5;
     int MS_M;
     double Operand;
@@ -145,7 +126,6 @@ void Meshur_Slection_Menu() {
 }
 
 void Meshurments_Convertis() {
-    std::cout << "Meshurments have been called\n";
     NEXT5;
     int MMM_Slection = 0;
     Meshur_Menu();

@@ -46,8 +46,6 @@ NEXT5;
 
 void Miles_Convertis(){//MILES CONVERTIS FUNCTION
     
-    std::cout << "Miles have been called\n";
-    
     int MM_Slection = 0;
     Miles_Menu();
     std::cin >> MM_Slection;

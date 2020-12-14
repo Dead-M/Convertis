@@ -28,10 +28,11 @@ Input input;
     std::cout << "~~~ \t3. Meshurements \t ~~~\n";
     std::cout << "~~~ \t4. Temp Conversion \t ~~~\n";
     std::cout << "~~~ \t5. Cail-Cuelator \t ~~~\n";
+    std::cout << "~~~ \t0. Exit \t ~~~\n";
     NEXT;
     std::cin >> x;
     setplayer_MenuInput(x);
-    std::cout << "X is : " << x;
+   
     NEXT;
 
     switch(x){//SWITCH
@@ -57,7 +58,8 @@ Input input;
 void Miles_Menu(){
 NEXT5;
 std::cout << "~~~\t 1. Miles to time from A to B \t~~~\n";
-//std::cout << "~~~\t 2. Time To Destanation\t~~~\n";
+std::cout << "~~~\t 2. TBA \t~~~\n";
+std::cout << "~~~\t 0. Main Menu \t ~~~\n";
 std::cout << "You're Slection : ";
 }
 
@@ -65,16 +67,17 @@ void Meshur_Menu(){
 NEXT5;
 std::cout << "~~~\t 1. Metric to Imperial \t~~~\n";
 std::cout << "~~~\t 2. Imperial to Metric \t~~~\n";
+std::cout << "~~~\t 0. Main Menu \t ~~~\n";
+NEXT;
 std::cout << "You're Slection : ";
 
 }
 
 void Temp_Menu() {
     NEXT5;
-    std::cout << "~~~\t~Tempture Conversion~\t~~~ \n";
-    NEXT;
     std::cout << "~~~\t 1. Celsius --> Fahrenheit \t~~~ \n";
     std::cout << "~~~\t 2. Fahrenheit --> Celsius \t~~~ \n";
+    std::cout << "~~~\t 0. Main Menu \t ~~~\n";
     NEXT;
     Temp_Function();
 }
