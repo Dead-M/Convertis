@@ -4,9 +4,9 @@ Convertis is a Programing Made for Converting Diffrent types of thing's and to I
 My "End game" with Convertis is to Make it a End all be all, i.e Convert Any thing and every thing, with the help of many people i believe we can achieve this starting with any thing that can be converter to its other "form" i want it and i want it in my program.
 Now currently the Program is in Console but once we all are on the same page i wish to turn this in a GuI and teach thoes who are helping and Contributing to such, will also learn Gui as well.
 
-(Helpful To Know : )
-   -GDB  
-   -g++
+Helpful To Know : 
+  -GDB  
+  -g++
 
 Great First Issues for any one who want's to learn more about how programming works and how open source works.
 
