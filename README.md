@@ -5,8 +5,8 @@ My "End game" with Convertis is to Make it a End all be all, i.e Convert Any thi
 Now currently the Program is in Console but once we all are on the same page i wish to turn this in a GuI and teach thoes who are helping and Contributing to such, will also learn Gui as well.
 
 Helpful To Know : 
-  -GDB  
-  -g++
+  * GDB  
+  * g++
 
 Great First Issues for any one who want's to learn more about how programming works and how open source works.
 
